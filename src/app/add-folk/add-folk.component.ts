@@ -13,4 +13,8 @@ export class AddFolkComponent {
   updateName() {
     this.name.setValue('Nancy');
   }
+
+  clearName() {
+    this.name.setValue('');
+  }
 }

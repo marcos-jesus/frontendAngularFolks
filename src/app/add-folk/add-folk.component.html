@@ -3,6 +3,7 @@
   <label class="labelName">Nome</label>
   <input type="text" placeholder="Digite seu nome" [formControl]="name">
   <button (click)="updateName()">Enviar</button>
+  <button (click)="clearName()">Limpar</button>
 </div>
 
 <div>Nome: {{ name.value}}</div>
