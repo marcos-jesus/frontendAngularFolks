@@ -1,0 +1,11 @@
+.labelName {
+  color:red;
+}
+
+.flexFolk {
+  width:200px;
+  display:flex;
+  line-height:30px;
+  flex-direction: column;
+  gap:5px;
+}
